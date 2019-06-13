@@ -26,7 +26,7 @@ int main(int argc, char** argv)
 	return 0;
 }
 ```
-
+##### std::initlizer_list<T> 主要用途 c++11初始化列表
 ```C++
 
 #include <iostream>
