@@ -1,10 +1,8 @@
 ##### std::initlizer_list<T> 代表 {}类型
 ```C++
-
 #include <iostream>
 #include <string>
 #include <typeinfo>
-using namespace std;
 
 int main(int argc, char** argv)
 {
@@ -19,10 +17,24 @@ int main(int argc, char** argv)
 	{
 		std::cout << typeid(it).name() << "" << it << std::endl;
 	}
-	// 
+	// initlizer_list   typeid{}
 	auto szInitList = { "aaa", "bbb", "ccc" };
 	std::cout << typeid(szInitList).name() << std::endl;
-
+	// initlizer_list   pair
+	enum pic_fmt { png = 0, jpg, bmp };
+	auto pairInitList = 
+	{
+		std::make_pair("png", png),
+		std::make_pair("jpg", jpg),
+		std::make_pair("bmp", bmp)
+	};
+	for (auto& it : pairInitList)
+	{
+		if ("bmp" == std::string(it.first))
+		{
+			std::cout << it.second << std::endl;
+		}
+	}
 	return 0;
 }
 ```
