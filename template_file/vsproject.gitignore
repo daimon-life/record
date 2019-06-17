@@ -1,0 +1,11 @@
+# vs2013
+*.log
+# - .sln related
+*.opensdf
+*.sdf
+*.suo
+# - .vcxproj related
+*.user
+
+# cpp file relate
+*.obj
