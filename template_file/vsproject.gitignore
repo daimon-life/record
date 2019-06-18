@@ -1,11 +1,18 @@
-# vs2013
-*.log
-# - .sln related
+# vs2013 solution
 *.opensdf
 *.sdf
 *.suo
+
 # - .vcxproj related
 *.user
 
-# cpp file relate
+# generate file
 *.obj
+*.log
+*.tlog
+*.idb
+*.pdb
+
+# build directory
+build/*
+!build/readme.md
