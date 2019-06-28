@@ -1,4 +1,5 @@
 ### files
+***
 #### mylib.h   follow as:
 ```c++
 #include "libmain.h" 
@@ -28,6 +29,7 @@ int main(int argc, char** argv)
 }
 ```
 ### script
+***
 ```bash
 chmod +x simple_compile.sh
 ./simple_compile.sh
