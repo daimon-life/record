@@ -34,3 +34,6 @@ int main(int argc, char** argv)
 chmod +x simple_compile.sh
 ./simple_compile.sh
 ```
+### note
+***
+std::cout in Lib_Initialise will make mistakes
