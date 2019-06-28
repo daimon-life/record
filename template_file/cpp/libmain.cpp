@@ -1,13 +1,13 @@
-#include <iostream>
+#include <cstdio>
 
 void Lib_Initialise()
 {
-	std::cout << "Init lib " << __LINE__ << std::endl;
+	printf("Init lib %d",__LINE__);
 }
 
 void Lib_DeInitialise()
 {
-	std::cout << "Deinit lib " << __LINE__ << std::endl;
+	printf("Deinit lib %d",__LINE__);
 }
 
 // Windows dllmain
