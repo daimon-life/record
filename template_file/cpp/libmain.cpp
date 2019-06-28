@@ -2,12 +2,12 @@
 
 void Lib_Initialise()
 {
-	printf("Init lib %d",__LINE__);
+	printf("Init lib %d\n",__LINE__);
 }
 
 void Lib_DeInitialise()
 {
-	printf("Deinit lib %d",__LINE__);
+	printf("Deinit lib %d\n",__LINE__);
 }
 
 // Windows dllmain
