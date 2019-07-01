@@ -1,18 +1,10 @@
 #include <cstdio>
 
-void Lib_Initialise()
-{
-	printf("Init lib %d\n",__LINE__);
-}
-
-void Lib_DeInitialise()
-{
-	printf("Deinit lib %d\n",__LINE__);
-}
-
 // Windows dllmain
 #if defined(WIN32) || defined(WIN64)
 #include <windows.h>
+void Lib_Initialise();
+void Lib_DeInitialise();
 BOOL APIENTRY DllMain(HANDLE hMoudle, DWORD ul_reason_for_call, LPVOID lpReserved)
 {
 	switch (ul_reason_for_call)
@@ -36,3 +28,13 @@ BOOL APIENTRY DllMain(HANDLE hMoudle, DWORD ul_reason_for_call, LPVOID lpReserve
 void Lib_Initialise() __attribute__((constructor));
 void Lib_DeInitialise() __attribute__((destructor));
 #endif
+
+void Lib_Initialise()
+{
+	printf("Init lib %d\n",__LINE__);
+}
+
+void Lib_DeInitialise()
+{
+	printf("Deinit lib %d\n",__LINE__);
+}
