@@ -1,5 +1,12 @@
 
 message(STATUS "start check cmake ...")
+message(" # cmake")
+message("   CMAKE_VERSION               - ${CMAKE_VERSION}")
+message("   CMAKE_ROOT                  - ${CMAKE_ROOT}")
+message(" # generator")
+message("   CMAKE_GENERATOR             - ${CMAKE_GENERATOR}")
+message("   CMAKE_GENERATOR_PLATFORM    - ${CMAKE_GENERATOR_PLATFORM}")
+message("   CMAKE_GENERATOR_TOOLSET     - ${CMAKE_GENERATOR_TOOLSET}")
 message(" # configure")
 message("   CMAKE_CONFIGURATION_TYPES   - ${CMAKE_CONFIGURATION_TYPES}")
 message("   CMAKE_BUILD_TYPE            - ${CMAKE_BUILD_TYPE}")
