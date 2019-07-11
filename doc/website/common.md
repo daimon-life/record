@@ -13,6 +13,7 @@
 [Mixkit](https://mixkit.co/)
 [Wikihow](https://zh.wikihow.com/)
 [临时邮箱](http://24mail.chacuo.net/)
+[WiFi下快发消息](http://lanlan.im/)
 ### 影视
 [疯狂影视搜索](http://ifkdy.com/)
 [全国电视直播](http://bddn.cn/zb.htm)
