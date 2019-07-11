@@ -20,6 +20,8 @@
 [全国电视直播](http://bddn.cn/zb.htm)
 [医学微视](https://www.mvyxws.com/)
 [一席|中国版的TED](https://yixi.tv/)
+[场库](https://www.vmovier.com/new)
+[绿色直播](http://www.lszhibo.com/)
 ### 文学
 [周读](http://www.ireadweek.com/)
 [句子迷](https://www.juzimi.com/)
