@@ -14,10 +14,12 @@
 [Wikihow](https://zh.wikihow.com/)
 [临时邮箱](http://24mail.chacuo.net/)
 [WiFi下快发消息](http://lanlan.im/)
+[汉典](https://www.zdic.net/)
 ### 影视
 [疯狂影视搜索](http://ifkdy.com/)
 [全国电视直播](http://bddn.cn/zb.htm)
 [医学微视](https://www.mvyxws.com/)
+[一席|中国版的TED](https://yixi.tv/)
 ### 文学
 [周读](http://www.ireadweek.com/)
 [句子迷](https://www.juzimi.com/)
