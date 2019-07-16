@@ -22,6 +22,9 @@
 [一席|中国版的TED](https://yixi.tv/)
 [场库](https://www.vmovier.com/new)
 [绿色直播](http://www.lszhibo.com/)
+[国图公开课](http://open.nlc.cn/onlineedu/client/index.htm)
+[中国数字科技馆](https://www.cdstm.cn/)
+[大学资源网](http://www.dxzy163.com/)
 ### 文学
 [周读](http://www.ireadweek.com/)
 [句子迷](https://www.juzimi.com/)
