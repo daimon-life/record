@@ -1,12 +1,10 @@
 set(PACKAGE gtest)
 
-set(BUILD_GMOCK OFF)
-set(BUILD_GTEST ON)
-
-set(BUILD_SHARED_LIBS ON)
-
 set(argument_list
   "-DCMAKE_INSTALL_PREFIX=${TARGET_OUTPUT_DIR}"
+  "-DBUILD_GMOCK=OFF"
+  "-DBUILD_GTEST=ON"
+  "-DBUILD_SHARED_LIBS=ON"
 )
 
 # print argument_list
