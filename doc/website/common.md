@@ -30,3 +30,6 @@
 [周读](http://www.ireadweek.com/)
 [句子迷](https://www.juzimi.com/)
 [全历史](https://www.allhistory.com/)
+### 音视频编程相关
+[着色器](https://www.shadertoy.com/)   
+[gl转场](https://gl-transitions.com)
