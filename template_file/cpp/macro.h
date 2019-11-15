@@ -41,7 +41,7 @@
 #endif
 
 #ifndef CHECK_RETURN
-#define CHECK_RETURN(bReturn)           if ((bIsReturn)) { return; }
+#define CHECK_RETURN(bReturn)           if ((bReturn)) { return; }
 #endif
 
 #ifndef CHECK_RETURN_RET
