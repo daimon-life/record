@@ -18,4 +18,13 @@ c++ template 1<br/>
   * 文档文件目录
   * 介绍文件
   
+  c++ template 2<br/>
+* root
+  * code
+  * include
+  * bin
+  * lib
+  * obj
+  * script
+  * readme.md
 
