@@ -1,5 +1,5 @@
 c++ template 1<br/>
-* root 根目录
+* root
   * src
   * inc
   * bin
