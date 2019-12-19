@@ -1,11 +1,19 @@
 c++ template 1<br/>
 * root 根目录
-  * src 源文件目录
-  * inc 头文件目录
-  * bin 二进制目录
-  * lib 静态库目录
-  * obj 中间文件目录
-  * spt 脚本文件目录
+  * src
+  * inc
+  * bin
+  * lib
+  * obj
+  * spt
   * readme.md
+* 根目录
+  * 源文件目录
+  * 头文件目录
+  * 二进制目录
+  * 静态库目录
+  * 中间文件目录
+  * 脚本文件目录
+  * 介绍文件
   
-$\color{red}{talk}$
+
