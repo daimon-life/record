@@ -1,0 +1,5 @@
+LIBRARY  libsamplerate-0.dll
+EXPORTS
+
+src_new         @1
+src_delete      @2
