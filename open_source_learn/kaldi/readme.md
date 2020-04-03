@@ -1,0 +1,11 @@
+官网：http://kaldi-asr.org/ <br>
+简书介绍kaldi <br>
+https://www.jianshu.com/p/e337120c5885 <br>
+知乎了解 <br>
+https://www.zhihu.com/question/65516424 <br>
+中文文档 <br>
+http://www.geekidentity.com/asr/kaldi/kaldi_tutorial/ <br>
+atlas <br>
+https://sourceforge.net/projects/math-atlas/files/Stable/ <br>
+kaldi仓库 <br>
+https://github.com/kaldi-asr/kaldi <br>
