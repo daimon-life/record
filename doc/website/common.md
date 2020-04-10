@@ -17,6 +17,7 @@
 [WiFi下快发消息](http://lanlan.im/)
 [汉典](https://www.zdic.net/)
 [在线工具](https://tool.lu/)
+[adobe配色](https://tool.lu/)
 
 ### 影视
 [疯狂影视搜索](http://ifkdy.com/)
