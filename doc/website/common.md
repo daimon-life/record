@@ -16,6 +16,7 @@
 [临时邮箱](http://24mail.chacuo.net/)
 [WiFi下快发消息](http://lanlan.im/)
 [汉典](https://www.zdic.net/)
+[在线工具](https://tool.lu/)
 
 ### 影视
 [疯狂影视搜索](http://ifkdy.com/)
