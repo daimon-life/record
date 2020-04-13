@@ -5,3 +5,7 @@
 ### 激活
 [jetbrain激活](https://shimo.im/docs/DJ3h3tJv98ppTYyH/read)
 
+### 库
+[cef](http://opensource.spotify.com/cefbuilds/index.html)
+
+
