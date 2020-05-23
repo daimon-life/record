@@ -174,3 +174,5 @@ DDCAPS_ALIGNSIZESRC
 { MAKEFOURCC('Y','U','Y','2'), 16 },
 { MAKEFOURCC('U','Y','V','Y'), 16 }
 ```
+#### 参考
+[戏开发基础(9)](http://blog.sina.com.cn/s/blog_4a4ff6df0100078a.html)
