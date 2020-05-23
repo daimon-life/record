@@ -42,8 +42,8 @@ dumpbin /exports ddraw.dll
 * DllUnregisterServer
 
 ##### IDirectDraw7
-（IDirectDraw IDirectDraw2 IDirectDraw4 IDirectDraw7）<br/>
-IDirectDraw methods
+（IDirectDraw IDirectDraw2 IDirectDraw4 IDirectDraw7）
+<br/><br/>IDirectDraw methods
 * Compact
 * **CreateClipper**
 * CreatePalette
@@ -64,9 +64,9 @@ IDirectDraw methods
 * **SetCooperativeLevel
 * SetDisplayMode
 * WaitForVerticalBlank
-<br/>v2 interface
+<br/><br/>v2 interface
 * GetAvailableVidMem
-<br/>V4 Interface
+<br/><br/>V4 Interface
 * GetSurfaceFromDC
 * RestoreAllSurfaces
 * TestCooperativeLevel
