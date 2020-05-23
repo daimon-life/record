@@ -40,6 +40,45 @@ dumpbin /exports ddraw.dll
 * DllGetClassObject
 * DllRegisterServer
 * DllUnregisterServer
+
+##### IDirectDraw7
+（IDirectDraw IDirectDraw2 IDirectDraw4 IDirectDraw7）
+IDirectDraw methods
+* Compact
+* **CreateClipper**
+* CreatePalette
+* **CreateSurface**
+* DuplicateSurface
+* EnumDisplayModes
+* EnumSurfaces
+* FlipToGDISurface
+* **GetCaps**
+* GetDisplayMode
+* GetFourCCCodes
+* GetGDISurface
+* GetMonitorFrequency
+* GetScanLine
+* GetVerticalBlankStatus
+* Initialize
+* RestoreDisplayMode
+* **SetCooperativeLevel
+* SetDisplayMode
+* WaitForVerticalBlank
+v2 interface
+* GetAvailableVidMem
+V4 Interface
+* GetSurfaceFromDC
+* RestoreAllSurfaces
+* TestCooperativeLevel
+* GetDeviceIdentifier
+* StartModeTest
+* EvaluateMode
+
+##### IDirectDrawSurface7
+（IDirectDrawSurface IDirectDrawSurface2 IDirectDrawSurface3 IDirectDrawSurface4 IDirectDrawSurface7）
+
+##### IDirectDrawClipper
+
 #### 使用
 ##### 渲染流程
 ```cpp
