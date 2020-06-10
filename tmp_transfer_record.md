@@ -18,3 +18,9 @@ http://www.pc0359.cn/downinfo/95437.html <br>
 
 ### yuv player
 https://sourceforge.net/p/raw-yuvplayer/bugs/1/ <br>
+
+###  rgb yuv
+http://www.fourcc.org/fccyvrgb.php <br>
+
+博客
+https://glumes.com/post/ffmpeg/av-beginner-011/ <br>
