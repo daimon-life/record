@@ -1,17 +1,28 @@
 ```c++
 
-// buffer
+// vertex buffer
 GLuint vboid
 glGenBuffers(1,&vboid);
 glBindBuffer(GL_ARRAY_BUFFER,vboid);
+
+// copy to ...
+glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW); 
+
+// element buffer
+GLuint eboid
+glGenBuffers(1,&eboid);
+glBindBuffer(GL_ELEMENT_ARRAY_BUFFER,vboid);
+
+// copy to ...
+glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indexs), indexs, GL_STATIC_DRAW); 
+
 
 // vertex array
 unsigned int VBO, VAO;
 glGenVertexArrays(1, &vaoid);
 glBindVertexArray(vaoid);
 
-// copy to ...
-glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW); 
+
 
 // vertex shader
 unsigned int vertexShader;
