@@ -36,4 +36,7 @@ glLinkProgram(shaderProgram);//链接
 glUseProgram(shaderProgram);
 
 
+//
+glDrawArrays(GL_TRIANGLES, 0, 3);
+
 ```
