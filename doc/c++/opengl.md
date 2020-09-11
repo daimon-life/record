@@ -25,18 +25,26 @@ glBindVertexArray(vaoid);
 
 
 // vertex shader
-unsigned int vertexShader;
+GLuint vertexShader;
 vertexShader = glCreateShader(GL_VERTEX_SHADER);
 glShaderSource(vertexShader, 1, &vertexShaderSource, NULL);//传递源码
 glCompileShader(vertexShader);//编译着色器
 glDeleteShader(vertexShader);
 
 // fragment shader
-unsigned int fragmentShader;
+GLuint fragmentShader;
 fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
 glShaderSource(fragmentShader, 1, &fragmentShaderSource, NULL);
 glCompileShader(fragmentShader);
 glDeleteShader(fragmentShader);
+
+// shader status
+GLint compiled;
+glGetShaderiv (shader, GL_COMPILE_STATUS, &compiled );
+GLint infoLen = 0;
+glGetShaderiv(shader, GL_INFO_LOG_LENGTH, &infoLen );
+char *infoLog = malloc(sizeof (char)*infoLen);
+glGetShaderInfoLog (shader, infoLen, NULL, infoLog);
 
 // shader program
 unsigned int shaderProgram;
@@ -45,7 +53,15 @@ glAttachShader(shaderProgram, vertexShader);//将顶点着色器附加到程序�
 glAttachShader(shaderProgram, fragmentShader);//将片段着色器附加到程序上
 glLinkProgram(shaderProgram);//链接
 glUseProgram(shaderProgram);
+glDeleteProgram (shaderProgram);
 
+// shader program status
+GLint linked;
+glGetProgramiv(shaderProgram, GL_LINK_STATUS, &linked);
+GLint infoLen = 0;
+glGetProgramiv ( programObject, GL_INFO_LOG_LENGTH, &infoLen );
+char *infoLog = malloc ( sizeof ( char ) * infoLen );
+glGetProgramInfoLog (shaderProgram, infoLen, NULL, infoLog );
 
 //
 glDrawArrays(GL_TRIANGLES, 0, 3);
