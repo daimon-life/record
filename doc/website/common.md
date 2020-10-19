@@ -37,7 +37,7 @@
 [全历史](https://www.allhistory.com/)
 
 ### 音视频编程相关
-[着色器](https://www.shadertoy.com/)   
+[着色器](https://www.shadertoy.com/)   谷歌插件：Shadertoy Custom Texures <br/>
 [gl转场](https://gl-transitions.com)  
 [desmos](https://www.desmos.com/calculator)
 [The Book of Shaders](https://thebookofshaders.com/?lan=ch)   
